@@ -27,3 +27,4 @@ for each_possible_word in words:
 data = {'shortlist_word': shortlist_wrd,'frequency': shortlist_freq}
 df = pd.DataFrame(data)
 df.sort_values(by="frequency", ascending=False)
+#
